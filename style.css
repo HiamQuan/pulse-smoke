@@ -31,7 +31,7 @@ canvas {
   width: 100%;
   height: 100%;
 }
-#pinkboard {
+#heartBox {
   position: relative;
   margin: auto;
   height: 500px;
@@ -39,8 +39,8 @@ canvas {
   animation: animate 1.3s infinite;
 }
 
-#pinkboard:before,
-#pinkboard:after {
+#heartBox:before,
+#heartBox:after {
   content: "";
   position: absolute;
   background: #ff5ca4;
@@ -50,7 +50,7 @@ canvas {
   border-top-right-radius: 50px;
 }
 
-#pinkboard:before {
+#heartBox:before {
   left: 100px;
   transform: rotate(-45deg);
   transform-origin: 0 100%;
@@ -58,7 +58,7 @@ canvas {
     0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
-#pinkboard:after {
+#heartBox:after {
   left: 0;
   transform: rotate(45deg);
   transform-origin: 100% 100%;
